@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import NewsItem from "./components/NewsItem";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const newsItem = {
+    title: `Some news`,
+    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+  };
+
+  return <NewsItem news={newsItem} />;
 }
 
 export default App;
