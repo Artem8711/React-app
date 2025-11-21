@@ -1,4 +1,4 @@
-import NewsItem from "./components/NewsItem";
+import NewsItem from "./components/NewsItem/News";
 import "./App.css";
 
 function App() {
