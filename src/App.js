@@ -1,13 +1,10 @@
-import NewsItem from "./components/NewsItem/News";
-import "./App.css";
+import './App.css';
+import Header from './components/Header/head';
 
 function App() {
-  const newsItem = {
-    title: `Some news`,
-    body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
-  };
+  const isLogin = true;
 
-  return <NewsItem news={newsItem} />;
+  return <Header isLogin={isLogin} />;
 }
 
 export default App;
