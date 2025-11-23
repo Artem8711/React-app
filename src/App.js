@@ -1,10 +1,8 @@
 import './App.css';
-import Header from './components/Header/head';
+import Counter from './components/counter/count';
 
 function App() {
-  const isLogin = true;
-
-  return <Header isLogin={isLogin} />;
+  return <Counter />;
 }
 
 export default App;

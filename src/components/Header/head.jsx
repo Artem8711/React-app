@@ -1,25 +1,25 @@
-import userIcon from './user-icon.jpeg';
+/* import userIcon from './user-icon.jpeg';
 import logo from './logo.webp';
 import styles from './header.module.css';
 
 function Header(props) {
-  const { isLogin } = props;
+  const { isLogin } = props; */
 
-  //часть с user icon и кнопкой login
-  /* if (isLogin) {
+//часть с user icon и кнопкой login
+/* if (isLogin) {
     return <img src={userIcon} alt="user" />;
   }
   return <button>Login</button>; */
-  /////////////////////////////////////
-  /*   return (
+/////////////////////////////////////
+/*   return (
     <header>
       {isLogin ? <img src={userIcon} alt="user" /> : <button>Login</button>}
     </header>
   ); */
-  //////////////////////////////////////////////////
+//////////////////////////////////////////////////
 
-  //часть с logo
-  return (
+//часть с logo
+/* return (
     <header className={styles.container}>
       <img className={styles['logo-img']} src={logo} alt="logo" />
       {isLogin ? (
@@ -35,3 +35,4 @@ function Header(props) {
 }
 
 export default Header;
+ */

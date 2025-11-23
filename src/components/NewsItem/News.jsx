@@ -1,4 +1,4 @@
-function NewsItem(props) {
+/* function NewsItem(props) {
   const { news } = props;
 
   return (
@@ -10,3 +10,4 @@ function NewsItem(props) {
 }
 
 export default NewsItem;
+ */
