@@ -16,7 +16,7 @@
   );
 } */
 
-import { Component } from "react";
+/* import { Component } from "react";
 
 class Counter extends Component {
   constructor(props) {
@@ -36,4 +36,4 @@ class Counter extends Component {
     );
   }
 }
-export default Counter;
+export default Counter; */
