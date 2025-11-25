@@ -1,4 +1,4 @@
-import { Component } from "react";
+/* import { Component } from "react";
 
 class ViewPortParams extends Component {
   constructor(props) {
@@ -34,4 +34,4 @@ class ViewPortParams extends Component {
   }
 }
 
-export default ViewPortParams;
+export default ViewPortParams; */
