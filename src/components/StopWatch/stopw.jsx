@@ -1,4 +1,4 @@
-import { Component } from "react";
+/* import { Component } from "react";
 
 class StopWatch extends Component {
   constructor(props) {
@@ -58,4 +58,4 @@ class StopWatch extends Component {
   }
 }
 
-export default StopWatch;
+export default StopWatch; */
