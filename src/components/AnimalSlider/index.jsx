@@ -1,4 +1,4 @@
-import { Component } from "react";
+/* import { Component } from "react";
 import defaltImg from "./defaultImg.jpeg";
 import styles from "./AnimalSlider.module.css";
 
@@ -45,4 +45,4 @@ class AnimalSlider extends Component {
   }
 }
 
-export default AnimalSlider;
+export default AnimalSlider; */
