@@ -1,0 +1,51 @@
+.formContainer {
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 5px 5px 5px grey;
+  max-width: 800px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.inputName {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.input {
+  padding: 10px;
+  outline: none;
+}
+
+.inputValid {
+  border: 2px solid green;
+}
+
+.inputInvalid {
+  border: 2px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.85rem;
+  margin: 2px 0 5px 0;
+}
