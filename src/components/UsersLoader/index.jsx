@@ -5,15 +5,21 @@ class UsersLoader extends Component {
     super(props);
 
     this.state = {
-      users: [
-        { id: 1, name: `Ivo` },
-        { id: 2, name: `Wally` },
-      ],
+      users: [],
 
       isLoading: false,
       error: null,
       currentPage: 1,
     };
+  }
+
+  componentDidMount() {
+    this.setState({ isLoading: true });
+    fetch(`https://randomuser.me/api`)
+      .then((response) => response.json())
+      .then((data) => this.setState({ users: data.results, isLoading: false }))
+      .catch((e) => this.setState({ error: e }))
+      .finally(() => this.setState({ isLoading: false }));
   }
 
   render() {
@@ -23,7 +29,6 @@ class UsersLoader extends Component {
       <>
         {error && <div>ERROR</div>}
         {isLoading && <div>Loading. Please wait...</div>}
-
         {!error && !isLoading && (
           <ul>
             {users.map((u) => (
