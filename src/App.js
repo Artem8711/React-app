@@ -1,7 +1,7 @@
-import LoginForm from "./components/LoginForm";
+import UsersLoader from "./components/UsersLoader";
 
 function App() {
-  return <LoginForm />;
+  return <UsersLoader />;
 }
 
 export default App;
